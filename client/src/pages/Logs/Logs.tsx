@@ -75,7 +75,6 @@ const Logs: React.FC = () => {
 				className="flex gap-2 mb-6 overflow-x-auto pb-2"
 				style={{ scrollbarWidth: "none" }}
 			>
-				// Hide scrollbar for Firefox
 				<style>
 					{`
 						::-webkit-scrollbar {

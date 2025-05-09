@@ -37,6 +37,8 @@ const Home: React.FC = () => {
 		canLogRoutine(step.timeOfDay)
 	);
 
+	console.log("Current Step:", currentStep);
+
 	return (
 		<div className="space-y-6 max-w-6xl mx-auto">
 			<div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
@@ -64,7 +66,10 @@ const Home: React.FC = () => {
 			</div>
 
 			{currentStep && (
-				<Card className="bg-gradient-to-r from-teal-500 to-blue-500 text-white animate-fade-in">
+				<Card
+					key={currentStep.id}
+					className="bg-gradient-to-r from-teal-700 to-blue-500 text-white animate-fade-in"
+				>
 					<h2 className="text-xl font-semibold mb-4">
 						Complete Today's Routine
 					</h2>
@@ -114,7 +119,7 @@ const Home: React.FC = () => {
 								: " Keep going to see better results!"}
 						</p>
 
-						{completionRate < 100 && (
+						{/* {completionRate < 100 && (
 							<Button
 								variant="primary"
 								size="lg"
@@ -122,7 +127,7 @@ const Home: React.FC = () => {
 							>
 								Complete today's routine
 							</Button>
-						)}
+						)} */}
 					</div>
 				</div>
 			</Card>
