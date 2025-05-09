@@ -26,8 +26,8 @@ const RoutineChart: React.FC<RoutineChartProps> = ({ completionRate }) => {
 
 	const colors =
 		theme === "dark"
-			? ["#5eead4", "#334155"] // dark theme colors
-			: ["#14b8a6", "#e2e8f0"]; // light theme colors
+			? ["#4f39f6", "#334155"] // dark theme colors
+			: ["#4f39f6", "#6e747b"]; // light theme colors
 
 	const textColor = theme === "dark" ? "#f1f5f9" : "#334155";
 

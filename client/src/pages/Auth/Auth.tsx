@@ -82,7 +82,7 @@ const Auth: React.FC = () => {
 					}`}
 				>
 					<div className="text-center mb-8">
-						<div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-teal-500 text-white mb-4">
+						<div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-indigo-500 text-white mb-4">
 							<Scan size={32} />
 						</div>
 						<h1 className="text-2xl font-bold">SkinCare AI</h1>

@@ -45,7 +45,7 @@ const Logs: React.FC = () => {
 					<div className="flex flex-col justify-center">
 						<div className="mb-4 self-center sm:self-auto">
 							<p className="font-medium">Completion Rate</p>
-							<p className="text-3xl font-bold text-teal-600 dark:text-teal-400 text-center sm:text-left">
+							<p className="text-3xl font-bold text-indigo-600 dark:text-indigo-400 text-center sm:text-left">
 								{Math.round(completionRate)}%
 							</p>
 						</div>
@@ -95,7 +95,7 @@ const Logs: React.FC = () => {
 				flex flex-col items-center justify-center rounded-full w-12 h-12 transition-colors flex-shrink-0
 				${
 					isActive
-						? "bg-teal-500 text-white"
+						? "bg-indigo-500 text-white"
 						: theme === "dark"
 						? "bg-gray-800 text-gray-300 hover:bg-gray-700"
 						: "bg-white text-gray-800 hover:bg-gray-100"
@@ -130,7 +130,7 @@ const Logs: React.FC = () => {
 							return (
 								<Card
 									key={log.id}
-									className="border-l-4 border-l-teal-500"
+									className="border-l-4 border-l-indigo-500"
 								>
 									<div className="flex items-start justify-between">
 										<div>

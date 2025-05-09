@@ -119,7 +119,7 @@ const ChatInput: React.FC<ChatInputProps> = ({ onSendMessage }) => {
 							theme === "dark"
 								? "bg-gray-700 text-white placeholder-gray-400 border-gray-600"
 								: "bg-gray-100 text-gray-900 placeholder-gray-500 border-gray-200"
-						} border focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-opacity-50`}
+						} border focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-opacity-50`}
 						rows={1}
 						style={{ minHeight: "44px", maxHeight: "120px" }}
 					/>
@@ -128,7 +128,7 @@ const ChatInput: React.FC<ChatInputProps> = ({ onSendMessage }) => {
 				{message.trim() || uploadedImage ? (
 					<button
 						onClick={handleSendMessage}
-						className="p-3 bg-teal-500 text-white rounded-full hover:bg-teal-600 transition-colors"
+						className="p-3 bg-indigo-500 text-white rounded-full hover:bg-indigo-600 transition-colors"
 						aria-label="Send message"
 					>
 						<Send size={20} />

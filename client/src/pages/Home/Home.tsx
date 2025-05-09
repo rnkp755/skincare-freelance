@@ -68,7 +68,7 @@ const Home: React.FC = () => {
 			{currentStep && (
 				<Card
 					key={currentStep.id}
-					className="bg-gradient-to-r from-teal-700 to-blue-500 text-white animate-fade-in"
+					className="bg-gradient-to-r from-blue-500 to-indigo-700 text-white animate-fade-in"
 				>
 					<h2 className="text-xl font-semibold mb-4">
 						Complete Today's Routine
@@ -110,7 +110,7 @@ const Home: React.FC = () => {
 						<h3 className="font-medium mb-2">Your Progress</h3>
 						<p className="mb-4">
 							You've completed{" "}
-							<span className="font-semibold text-teal-600 dark:text-teal-400">
+							<span className="font-semibold text-indigo-600 dark:text-indigo-400">
 								{Math.round(completionRate)}%
 							</span>{" "}
 							of your skincare routine steps.

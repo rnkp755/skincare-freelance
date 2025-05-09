@@ -189,7 +189,7 @@ const Chat: React.FC = () => {
 				</Button>
 			</div>
 
-			<div className="flex-1 overflow-y-auto p-4 rounded-lg bg-gray-50 dark:bg-gray-800 mb-4">
+			<div className="flex-1 overflow-y-auto p-4 rounded-lg !bg-gray-100 dark:bg-gray-800 mb-4">
 				{messages.map((message) => (
 					<ChatMessage
 						key={message.id}

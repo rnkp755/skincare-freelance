@@ -137,7 +137,7 @@ const Profile: React.FC = () => {
 								htmlFor="notifications"
 								className={`
                   block w-12 h-6 rounded-full transition cursor-pointer
-                  ${theme === "dark" ? "bg-teal-500" : "bg-teal-500"}
+                  ${theme === "dark" ? "bg-indigo-500" : "bg-indigo-500"}
                 `}
 							>
 								<span
@@ -190,7 +190,7 @@ const Profile: React.FC = () => {
 								htmlFor="theme-toggle"
 								className={`
                   block w-12 h-6 rounded-full transition cursor-pointer
-                  ${theme === "dark" ? "bg-teal-500" : "bg-gray-300"}
+                  ${theme === "dark" ? "bg-indigo-500" : "bg-gray-300"}
                 `}
 							>
 								<span
